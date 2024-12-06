@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day1", "Day1\Day1.csproj", "{4EA2FF6F-E6A0-4241-9131-046436E5D9FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day1", "Day1\Day1.csproj", "{4EA2FF6F-E6A0-4241-9131-046436E5D9FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day2", "Day2\Day2.csproj", "{230BD2FD-88DC-46DF-BECC-C6CA52F1FD76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day2", "Day2\Day2.csproj", "{230BD2FD-88DC-46DF-BECC-C6CA52F1FD76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day3", "Day3\Day3.csproj", "{8C291383-8FC4-41B5-A376-C2E90E8B5B87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day3", "Day3\Day3.csproj", "{8C291383-8FC4-41B5-A376-C2E90E8B5B87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day4", "Day4\Day4.csproj", "{2DCC9B4E-563C-473F-854B-41C8A8FCDF6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day4", "Day4\Day4.csproj", "{2DCC9B4E-563C-473F-854B-41C8A8FCDF6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day5", "Day5\Day5.csproj", "{6FA707B1-E18D-427D-9E96-EEA602B551CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day5", "Day5\Day5.csproj", "{6FA707B1-E18D-427D-9E96-EEA602B551CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day6", "Day6\Day6.csproj", "{EE3AFC6B-2D05-41FF-9587-A92F56C8360A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,8 +41,15 @@ Global
 		{6FA707B1-E18D-427D-9E96-EEA602B551CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FA707B1-E18D-427D-9E96-EEA602B551CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FA707B1-E18D-427D-9E96-EEA602B551CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE3AFC6B-2D05-41FF-9587-A92F56C8360A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE3AFC6B-2D05-41FF-9587-A92F56C8360A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE3AFC6B-2D05-41FF-9587-A92F56C8360A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE3AFC6B-2D05-41FF-9587-A92F56C8360A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B8B9C52-4ABA-4EA6-85A5-3195F98C9157}
 	EndGlobalSection
 EndGlobal
