@@ -17,7 +17,7 @@
                 {
                     ints[i] = int.Parse(rawNums[i]);
                 }
-                numSafeReports1 = safeReport(ref numSafeReports2, ref notValid, ints) ? numSafeReports1 += 1 : numSafeReports1; //Add 1 to counts if possible levels
+                numSafeReports1 = safeReport(ref notValid, ints) ? numSafeReports1 += 1 : numSafeReports1; //Add 1 to counts if possible levels
                 //Part2
                 for (int i = 0;i < ints.Length; i++)
                 {
@@ -29,7 +29,7 @@
                             dampenedInts.Add(ints[j]);
                         }
                     }
-                    if(safeReport(ref numSafeReports2, ref notValid, dampenedInts.ToArray())) //Add 1 to counts if possible levels, then break to not overcount
+                    if(safeReport(ref notValid, dampenedInts.ToArray())) //Add 1 to counts if possible levels, then break to not overcount
                     {
                         numSafeReports2 += 1;
                         break;
@@ -41,7 +41,7 @@
 
         }
 
-        private static bool safeReport(ref int numSafeReports, ref bool notValid, int[] ints)
+        private static bool safeReport(ref bool notValid, int[] ints)
         {
             notValid = false;
             int sign = int.Sign(ints[0] - ints[1]);
